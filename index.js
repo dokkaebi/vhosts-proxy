@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const http = require('http'),
     httpProxy = require('http-proxy');
 
