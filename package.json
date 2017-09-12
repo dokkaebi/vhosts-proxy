@@ -4,7 +4,8 @@
   "license": "proprietary",
   "private": true,
   "dependencies": {
-    "node-http-proxy": "^0.2.3"
+    "http-proxy": "^1.16.2",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {}
 }
