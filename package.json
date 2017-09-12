@@ -1,0 +1,10 @@
+{
+  "name": "vhosts-proxy",
+  "version": "0.0.0",
+  "license": "proprietary",
+  "private": true,
+  "dependencies": {
+    "node-http-proxy": "^0.2.3"
+  },
+  "devDependencies": {}
+}
