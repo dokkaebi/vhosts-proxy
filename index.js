@@ -23,6 +23,16 @@ const proxy = httpProxy.createProxyServer(),
     });
 
 //
+// Listen for the `error` event on `proxy`.
+proxy.on('error', function (err, req, res) {
+  res.writeHead(500, {
+    'Content-Type': 'text/plain'
+  });
+
+  res.end('Something went wrong. And we are reporting a custom error message.');
+});
+
+//
 // Listen to the `upgrade` event and proxy the
 // WebSocket requests as well.
 //
