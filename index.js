@@ -3,8 +3,6 @@
 const http = require('http'),
     httpProxy = require('http-proxy');
 
-const args = require('minimist')(process.argv.slice(2));
-
 const hostPortMapping = {
     'dp-ui.local': 8101,
     'dp-api.local': 8100,
